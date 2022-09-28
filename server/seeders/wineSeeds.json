@@ -1,0 +1,105 @@
+[
+    {
+        "name": "BB Zinfandel",
+        "vineyard": "Kelsey See Canyon",
+        "year": "2018",
+        "varietal": "Zinfandel",
+        "price": 48,
+        "type": "red",
+        "blurb": "What's rich and seductive and comes in a black box? We can think of many things including this BB Zinfandel",
+        "pairings": [
+            {
+                "pairingName": "steak",
+                "pairingDescription": "a sizling steak",
+                "pairingCategory": "Meat"
+            }, {
+                "pairingName": "spaghetti bolognese",
+                "pairingDescription": "spaghetti with a red meat sauce",
+                "pairingCategory": "Meat"
+            }
+        ]
+    },
+    {
+        "name": "Blue Eyes",
+        "vineyard": "Grey Wolf",
+        "year": "2020",
+        "varietal": "Sauvignon Blanc",
+        "price": 52,
+        "type": "white",
+        "blurb": "Look into the wolf's eyes and see the wine of your dreams",
+        "pairings": [
+            {
+                "pairingName": "gouda",
+                "pairingDescription": "pair with your choice of crackers as well",
+                "pairingCategory": "Cheese"
+            }, {
+                "pairingName": "scallops",
+                "pairingDescription": "seared with lemon, butter, and fresh herbs",
+                "pairingCategory": "Fish"
+            }
+        ]
+    },
+    {
+        "name": "The Kiss",
+        "vineyard": "Talley",
+        "year": "2017",
+        "varietal": "Chardonay",
+        "price": 95,
+        "type": "sparkling",
+        "blurb": "It's like a kiss from a grape vine"
+    },
+    {
+        "name": "Fracture",
+        "vineyard": "Booker",
+        "year": "2019",
+        "varietal": "Syrah",
+        "price": 98,
+        "type": "red",
+        "blurb": "Often described as a Booker flagship, Fracture is one of the world’s great Syrahs. Only the softest Syrah in barrel makes the cut for this dense and powerful wine."
+    },
+    {
+        "name": "Rose",
+        "vineyard": "Wolff",
+        "year": "2021",
+        "varietal": "Blend",
+        "price": 29,
+        "type": "rose",
+        "blurb": "Tastes of summer with hints of watermellon and strawberry."
+    },
+    {
+        "name": "Antiqua",
+        "vineyard": "Kelsey See Canyon",
+        "year": "2020",
+        "varietal": "Grenache",
+        "price": 48,
+        "type": "dessert",
+        "blurb": "Any storm for a port. Perfect to top of dinner or top off some vanilla ice cream."
+    },
+    {
+        "name": "Chardonnay",
+        "vineyard": "Tolosa",
+        "year": "2021",
+        "varietal": "Chardonnay",
+        "price": 32,
+        "type": "white",
+        "blurb": "This pure stainless Chardonnay has bright apple and apricot notes."
+    },
+    {
+        "name": "Villa Wolff Dry Reisling",
+        "vineyard": "Wolff",
+        "year": "2018",
+        "varietal": "Reisling",
+        "price": 48,
+        "type": "white",
+        "blurb": "Pure stony fruit and medium body with a light and crisp finish."
+    },
+    {
+        "name": "Cabernet Sauvignon",
+        "vineyard": "J Dusi",
+        "year": "2018",
+        "varietal": "Cabernet Sauvignon",
+        "price": 48,
+        "type": "red",
+        "blurb": "This full bodied red has juicy cherry and plum notes."
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+      "email": "bob@bob.com",
+      "username": "bob_is_cool",
+      "password": "coolguy123"
+    },
+    {
+      "email": "penny@penelope.com",
+      "username": "wineMaster",
+      "password": "monsterra22"
+    },
+    {        
+      "email": "john@doe.com",
+      "username": "johnloveswine",
+      "password": "jd1989"
+    },
+    {
+      "email": "jane@doe.com",
+      "username": "wine.lover",
+      "password": "wine"
+      },
+    {
+      "email": "frank@frankie.net",
+      "username": "wine4ever",
+      "password": "wine"
+    }
+]
