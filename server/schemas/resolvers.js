@@ -52,7 +52,10 @@ const resolvers = {
             return Wine.findOne({ _id: wineID });
         },
         // query for getting the wines that have a certain pairing based on category
-        getPairing
+        getPairing: async (parent, { pairingCategory }) => {
+            // if they have a pairing that falls under the category include them
+            return Wine.find({ pairingCategory: pairingCategory }); 
+        }
     },
 
     Mutation: {
