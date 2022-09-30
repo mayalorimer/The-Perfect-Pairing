@@ -17,7 +17,7 @@ const typeDefs = gql`
     price: Int!
     type: String!
     blurb: String
-    pairings: [Pairing]!
+    pairings: [Pairing]
   }
 
   type Pairing {
@@ -47,7 +47,7 @@ const typeDefs = gql`
     login(email: String!, password: String!): Auth
     createWine(name: String!, vineyard: String!, year: Int!, varietal: String, price: Int!, type: String!, blurb: String): Wine
     # add pairing to a wine
-    addPairing(wineId: ID!, pairingName: String!, pairingDescription: String!, pairingCategory: String!): Wine
+    addPairing(wineId: String!, pairingName: String!, pairingDescription: String!, pairingCategory: String!): Pairing
     removeWine(name: String!, vineyard: String!, year: Int!, varietal: String, price: Int!, type: String!, blurb: String): Wine
   }
 `;

@@ -38,23 +38,10 @@ const wineSchema = new Schema({
     // add relationship to food
     pairings: [
         {
-            pairingName: {
-                type: String,
-                required: true,
-            },
-            pairingDescription: {
-                type: String, 
-                required: true,
-                minlength: 1,
-                maxlength: 280,
-            },
-            pairingCategory: {
-                type: String,
-                enum: ['Meat', 'Fish', 'Vegetarian', 'Cheese', 'Pizza/Pasta', 'Dessert', 'Other'],
-                required: true,
-            }
+            type: Schema.Types.ObjectId,
+            ref: 'Pairing',
         }
-    ]
+    ],
 
 });
 

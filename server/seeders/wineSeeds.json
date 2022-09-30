@@ -6,18 +6,7 @@
         "varietal": "Zinfandel",
         "price": 48,
         "type": "red",
-        "blurb": "What's rich and seductive and comes in a black box? We can think of many things including this BB Zinfandel",
-        "pairings": [
-            {
-                "pairingName": "steak",
-                "pairingDescription": "a sizling steak",
-                "pairingCategory": "Meat"
-            }, {
-                "pairingName": "spaghetti bolognese",
-                "pairingDescription": "spaghetti with a red meat sauce",
-                "pairingCategory": "Meat"
-            }
-        ]
+        "blurb": "What's rich and seductive and comes in a black box? We can think of many things including this BB Zinfandel"
     },
     {
         "name": "Blue Eyes",
@@ -26,18 +15,7 @@
         "varietal": "Sauvignon Blanc",
         "price": 52,
         "type": "white",
-        "blurb": "Look into the wolf's eyes and see the wine of your dreams",
-        "pairings": [
-            {
-                "pairingName": "gouda",
-                "pairingDescription": "pair with your choice of crackers as well",
-                "pairingCategory": "Cheese"
-            }, {
-                "pairingName": "scallops",
-                "pairingDescription": "seared with lemon, butter, and fresh herbs",
-                "pairingCategory": "Fish"
-            }
-        ]
+        "blurb": "Look into the wolf's eyes and see the wine of your dreams"
     },
     {
         "name": "The Kiss",

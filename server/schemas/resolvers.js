@@ -1,6 +1,6 @@
 //resolvers.js
 const { AuthenticationError } = require('apollo-server-express');
-const { User, Wine } = require('../models');
+const { User, Wine, Pairing } = require('../models');
 const { signToken } = require('../utils/auth');
 
 const resolvers = {
@@ -54,7 +54,10 @@ const resolvers = {
         // query for getting the wines that have a certain pairing based on category
         getPairing: async (parent, { pairingCategory }) => {
             // if they have a pairing that falls under the category include them
-            return Wine.find({ pairingCategory: pairingCategory }); 
+
+            // find a pairingID that is associated with the parent category
+            // find all wines that have that assocaited pairingID
+            return Wine.find({ where: { _id: "6337228395bb3c03e05cdbc0" } }); 
         }
     },
 
@@ -98,16 +101,14 @@ const resolvers = {
 
         // mutation for adding a new pairing
         addPairing: async (parent, { wineId, pairingName, pairingDescription, pairingCategory }) => {
-            return Wine.findOneAndUpdate(
+            const pairing = await Pairing.create({ pairingName, pairingDescription, pairingCategory });
+            
+            await Wine.findOneAndUpdate(
                 { _id: wineId },
-                {
-                    $addToSet: { pairings: { pairingName, pairingDescription, pairingCategory } },
-                },
-                {
-                    new: true,
-                    runValidators: true,
-                }
+                { $addToSet: { pairings: pairing._id } }
             );
+
+            return pairing;
         }
 
     }
